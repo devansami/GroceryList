@@ -3,12 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		27D6FDC756C96B8181DF0609 /* Pods_GroceryList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 668A4E265D555F6260242539 /* Pods_GroceryList.framework */; };
 		84A8D30DB79ED227F2723CB5 /* Pods_GroceryListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5732F1B8213DDB50B2D18C86 /* Pods_GroceryListTests.framework */; };
+		D8D3589323A0628F005984EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8D3589223A0628F005984EE /* GoogleService-Info.plist */; };
+		D8D3589423A0628F005984EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8D3589223A0628F005984EE /* GoogleService-Info.plist */; };
 		FE69B10323A04FA600C82E5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69B10223A04FA600C82E5D /* AppDelegate.swift */; };
 		FE69B10523A04FA600C82E5D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69B10423A04FA600C82E5D /* SceneDelegate.swift */; };
 		FE69B10723A04FA600C82E5D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69B10623A04FA600C82E5D /* ViewController.swift */; };
@@ -34,6 +36,7 @@
 		668A4E265D555F6260242539 /* Pods_GroceryList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GroceryList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9CB6D80E5B2F69CF2A303F /* Pods-GroceryListTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryListTests.debug.xcconfig"; path = "Target Support Files/Pods-GroceryListTests/Pods-GroceryListTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B990E3B11A5F7B927BF1DBE1 /* Pods-GroceryList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryList.debug.xcconfig"; path = "Target Support Files/Pods-GroceryList/Pods-GroceryList.debug.xcconfig"; sourceTree = "<group>"; };
+		D8D3589223A0628F005984EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FD12AB9B7FF84931D33F1D1C /* Pods-GroceryListTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GroceryListTests.release.xcconfig"; path = "Target Support Files/Pods-GroceryListTests/Pods-GroceryListTests.release.xcconfig"; sourceTree = "<group>"; };
 		FE69B0FF23A04FA600C82E5D /* GroceryList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE69B10223A04FA600C82E5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -85,13 +88,13 @@
 				AD9CB6D80E5B2F69CF2A303F /* Pods-GroceryListTests.debug.xcconfig */,
 				FD12AB9B7FF84931D33F1D1C /* Pods-GroceryListTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		FE69B0F623A04FA600C82E5D = {
 			isa = PBXGroup;
 			children = (
+				D8D3589223A0628F005984EE /* GoogleService-Info.plist */,
 				FE69B10123A04FA600C82E5D /* GroceryList */,
 				FE69B11823A04FA800C82E5D /* GroceryListTests */,
 				FE69B10023A04FA600C82E5D /* Products */,
@@ -217,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE69B10F23A04FA700C82E5D /* LaunchScreen.storyboard in Resources */,
+				D8D3589323A0628F005984EE /* GoogleService-Info.plist in Resources */,
 				FE69B10C23A04FA700C82E5D /* Assets.xcassets in Resources */,
 				FE69B10A23A04FA600C82E5D /* Main.storyboard in Resources */,
 			);
@@ -226,6 +230,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8D3589423A0628F005984EE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
