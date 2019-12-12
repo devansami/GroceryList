@@ -7,6 +7,8 @@ target 'GroceryList' do
 
   # Pods for GroceryList
   pod 'Firebase/Analytics'
+  pod 'FirebaseUI/Auth'
+  pod 'FirebaseUI/Google'
   
   target 'GroceryListTests' do
     inherit! :search_paths
